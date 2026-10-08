@@ -1,0 +1,6 @@
+node_modules
+frontend/dist
+.git
+*.exe
+backend/data/messages.json
+.env

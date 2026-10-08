@@ -1,0 +1,15 @@
+{
+  "name": "portofolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Website portofolio: frontend React (folder frontend) + backend Go (folder backend)",
+  "packageManager": "pnpm@10.33.4",
+  "scripts": {
+    "postinstall": "pnpm --dir frontend install",
+    "dev": "pnpm run \"/^dev:/\"",
+    "dev:backend": "go -C backend run .",
+    "dev:frontend": "pnpm --dir frontend dev",
+    "build": "pnpm --dir frontend build && go -C backend build -o bin/ .",
+    "start": "STATIC_DIR=../frontend/dist go -C backend run ."
+  }
+}

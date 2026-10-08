@@ -1,0 +1,84 @@
+{
+  "profile": {
+    "name": "Biamtiero Amiral Kalman",
+    "role": "Full-Stack Developer",
+    "tagline": "Ga selesai ga tidur 🚀",
+    "about": [
+      "Halo! Saya Biamtiero Amiral Kalman, seorang Full-Stack Developer berdomisili di Bandung yang berdedikasi tinggi dalam membangun aplikasi web modern, efisien, dan responsif.",
+      "Saya memiliki komitmen kuat dalam menyelesaikan setiap masalah teknis hingga tuntas. Dengan fokus pada pengembangan web berbasis React di sisi frontend dan Go di sisi backend, saya selalu berupaya menghadirkan solusi perangkat lunak dengan arsitektur yang rapi dan performa yang optimal."
+    ],
+    "location": "Bandung, Indonesia",
+    "email": "biamtieroamiral@gmail.com",
+    "avatar": "/avatar.jpg",
+    "resumeUrl": "",
+    "available": true,
+    "stats": [
+      { "label": "Tahun Pengalaman", "value": "2+" },
+      { "label": "Project Selesai", "value": "10+" },
+      { "label": "Teknologi Dikuasai", "value": "8+" }
+    ],
+    "socials": [
+      { "name": "GitHub", "url": "https://github.com/Biamtiero" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/biam-tiero-a43113334/" }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Go (Golang)", "Node.js", "RESTful API", "PostgreSQL", "MySQL"]
+    },
+    {
+      "category": "Tools & Workflow",
+      "items": ["Git & GitHub", "pnpm", "Docker", "Vite", "Linux", "VS Code"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Aplikasi Web Portofolio",
+      "description": "Website portofolio interaktif dan modern dengan arsitektur micro-service ringan: React (Vite) di frontend dan Go REST API di backend.",
+      "tech": ["React", "Go", "pnpm", "Vite"],
+      "image": "",
+      "github": "https://github.com/Biamtiero/portofolio",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "Aplikasi Kasir / POS Online",
+      "description": "Sistem Point of Sale berbasis web untuk pengelolaan transaksi UMKM, manajemen stok barang, dan laporan penjualan harian.",
+      "tech": ["React", "Go", "PostgreSQL"],
+      "image": "",
+      "github": "https://github.com/Biamtiero",
+      "demo": "",
+      "featured": true
+    },
+    {
+      "title": "REST API High Performance",
+      "description": "Layanan API berperforma tinggi menggunakan Golang dengan penanganan rate limiting, validasi data, dan keamanan CORS.",
+      "tech": ["Go", "REST API", "Docker"],
+      "image": "",
+      "github": "https://github.com/Biamtiero",
+      "demo": "",
+      "featured": false
+    }
+  ],
+  "experience": [
+    {
+      "type": "work",
+      "title": "Full-Stack Developer",
+      "org": "Freelance / Independent Developer",
+      "period": "2024 - Sekarang",
+      "description": "Mengembangkan berbagai aplikasi web dari tahap konsep, perancangan basis data, pembuatan REST API dengan Go, hingga antarmuka interaktif menggunakan React."
+    },
+    {
+      "type": "education",
+      "title": "Pengembangan Perangkat Lunak / Teknik Informatika",
+      "org": "Bandung, Indonesia",
+      "period": "2021 - Sekarang",
+      "description": "Fokus pada pemrograman web, struktur data, arsitektur basis data, dan praktik terbaik rekayasa perangkat lunak."
+    }
+  ]
+}
